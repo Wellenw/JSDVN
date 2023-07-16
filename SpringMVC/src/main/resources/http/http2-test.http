@@ -1,0 +1,13 @@
+### 更新用户信息
+PUT http://localhost:8080/user
+Content-Type: application/json
+
+{
+  "id": 9,
+  "username": "xl",
+  "password": "1234567",
+  "nickname": "小亮"
+}
+
+### 删除用户信息
+DELETE http://localhost:8080/user/6

@@ -1,0 +1,12 @@
+GET http://localhost/banner/list
+
+###
+POST http://localhost/banner/insert
+Content-Type: application/json
+
+{
+"url": "531fec0f-97b6-4c43-95a1-cb50850cf0bb.jpg"
+}
+
+###
+DELETE http://localhost/banner/delete/4

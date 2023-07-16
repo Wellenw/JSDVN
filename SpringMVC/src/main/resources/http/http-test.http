@@ -1,0 +1,15 @@
+### 查询所有用户信息
+GET http://localhost:8080/getUser
+
+### 根据id查询用户信息
+GET http://localhost:8080/getUserById?id=1
+
+### 新增用户信息
+POST http://localhost:8080/saveUser
+Content-Type: application/json
+
+{
+  "username": "xl",
+  "password": "123456",
+  "nickname": "小亮"
+}

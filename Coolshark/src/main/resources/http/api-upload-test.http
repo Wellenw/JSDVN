@@ -1,0 +1,11 @@
+POST http://localhost/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="picFile"; filename="a.jpg"
+
+< d:/a.jpg
+--WebAppBoundary--
+
+###
+DELETE http://localhost/remove?name=2d8b4654-a096-49dc-9f85-db503544cfbe.jpg

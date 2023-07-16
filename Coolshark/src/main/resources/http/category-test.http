@@ -1,0 +1,13 @@
+POST http://localhost/category/insert
+Content-Type: application/json
+
+{
+"name": "家用电器"
+}
+
+###
+GET http://localhost/category/select
+
+###
+
+DELETE http://localhost/category/delete/1

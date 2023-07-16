@@ -1,0 +1,14 @@
+### 传递字符串
+GET http://localhost:8080/param1?name=th
+
+### 传递基本数据类型
+GET http://localhost:8080/param2?name=th&age=28
+
+### 传递对象类型
+GET http://localhost:8080/param3?name=th&age=28&job=讲师
+
+### 传递数组类型1
+GET http://localhost:8080/param4?ids=1&ids=2&ids=3
+
+### 传递数组类型2
+GET http://localhost:8080/param4?ids=1,2,3

@@ -1,0 +1,13 @@
+POST http://localhost/user/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "123456"
+}
+
+### 获取登录后的用户信息
+GET http://localhost/user/currentUser
+
+### 移除登录状态
+GET http://localhost/user/logout
