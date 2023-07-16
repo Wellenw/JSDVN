@@ -2,12 +2,13 @@ package cn.tedu.controller;
 
 import cn.tedu.entity.Banner;
 import cn.tedu.mapper.BannerMapper;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.File;
 import java.util.List;
-
+@Api(tags = "轮播图处理类")
 @RestController
 public class BannerController {
     @Autowired

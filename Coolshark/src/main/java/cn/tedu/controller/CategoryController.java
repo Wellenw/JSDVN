@@ -2,12 +2,12 @@ package cn.tedu.controller;
 
 import cn.tedu.entity.Category;
 import cn.tedu.mapper.CategoryMapper;
+import io.swagger.annotations.Api;
 import org.apache.ibatis.annotations.Delete;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
 @RestController
 public class CategoryController {
     @Autowired

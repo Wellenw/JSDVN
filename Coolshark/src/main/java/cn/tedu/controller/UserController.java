@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 public class UserController {
     @Autowired
     private UserMapper mapper;
-     
+
 
     @PostMapping("/user/login")
     public int login(@RequestBody User user, HttpSession session){
